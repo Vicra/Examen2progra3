@@ -32,6 +32,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Animal.cpp" />
+		<Unit filename="Animal.h" />
+		<Unit filename="ArbolTrinario.cpp" />
+		<Unit filename="ArbolTrinario.h" />
+		<Unit filename="NodoTrinario.cpp" />
+		<Unit filename="NodoTrinario.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

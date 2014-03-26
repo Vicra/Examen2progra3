@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1395846697 source:c:\users\007\documents\c++\examen2\arboltrinario.cpp
+1395846705 source:c:\users\007\documents\c++\examen2\arboltrinario.cpp
 	"ArbolTrinario.h"
 
 1395846304 c:\users\007\documents\c++\examen2\arboltrinario.h
@@ -8,12 +8,21 @@
 
 1395771956 c:\users\007\documents\c++\examen2\nodotrinario.h
 
-1395846355 source:c:\users\007\documents\c++\examen2\main.cpp
+1395853482 source:c:\users\007\documents\c++\examen2\main.cpp
 	<iostream>
 	"ArbolTrinario.h"
 	"NodoTrinario.h"
+	<vector>
+	"Animal.h"
+	<fstream>
 
 1395771955 source:c:\users\007\documents\c++\examen2\nodotrinario.cpp
 	"NodoTrinario.h"
+	<iostream>
+
+1395848080 source:c:\users\007\documents\c++\examen2\animal.cpp
+	"Animal.h"
+
+1395848552 c:\users\007\documents\c++\examen2\animal.h
 	<iostream>
 
