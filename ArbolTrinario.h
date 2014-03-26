@@ -12,7 +12,7 @@ class ArbolTrinario
         ArbolTrinario();
         virtual ~ArbolTrinario();
         void imprimir(NodoTrinario*raiz);
-        bool existe(int num);
+        bool existe(int num,NodoTrinario*nodo);
     protected:
     private:
 };

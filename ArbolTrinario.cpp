@@ -24,19 +24,27 @@ void ArbolTrinario::imprimir(NodoTrinario*raiz)
     imprimir(raiz->hijo_medio);
 
 }
-bool ArbolTrinario::existe(int num)
+bool ArbolTrinario::existe(int num,NodoTrinario*nodo)
 {
-    if(this->raiz->num == num)
+    if(this->raiz == NULL)
+        return false;
+
+    if(nodo->num == num)
         return true;
-
-    if(this->raiz->hijo_IZQ!=NULL)
-    this->raiz->hijo_IZQ->existe(this->raiz->hijo_IZQ->num);
-
-    if(this->raiz->hijo_DER!=NULL)
-    this->raiz->hijo_DER->existe(this->raiz->hijo_DER->num);
-
-    if(this->raiz->hijo_medio!=NULL)
-    this->raiz->hijo_medio->existe(this->raiz->hijo_medio->num);
-
+    if(nodo->hijo_IZQ!=NULL)
+    {
+        if(existe(num,nodo->hijo_IZQ))
+         return true;
+    }
+    if(nodo->hijo_DER!=NULL)
+    {
+        if(existe(num,nodo->hijo_DER))
+        return true;
+    }
+    if(nodo->hijo_medio!=NULL)
+    {
+        if(existe(num,nodo->hijo_medio))
+        return true;
+    }
     return false;
 }

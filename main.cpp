@@ -14,7 +14,7 @@ int main()
     int num;
     cout<<"Ingrese un numero a buscar: ";
     cin>> num;
-    if(a.existe(num))
+    if(a.existe(num,a.raiz))
     {
         cout<<"SI existe"<<endl;
     }else
